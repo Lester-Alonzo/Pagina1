@@ -1,0 +1,19 @@
+.header{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+}
+.enlaces a :hover{
+    color: rgb(73, 62, 175);
+
+}
+.encabezado{
+    color: white;
+}
+img{
+
+}
+ a{
+    color: white;
+    text-decoration: none;
+}
