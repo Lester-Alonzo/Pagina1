@@ -1,19 +1,26 @@
-.header{
-    background-color: rebeccapurple;
-    display: flex;
-    justify-content: space-between;
+form{
+background-color: rgba(158, 156, 17, 0.479);
+margin: 5rem 8rem 6rem 9rem;
+max-width: 300px;
+border-radius: 2rem;
 }
-.enlaces a :hover{
-    color: rgb(73, 62, 175);
-
+s
+fieldset{
+   
+    
+    max-width: 300px;
+    flex-wrap: wrap;
 }
-.encabezado{
-    color: white;
+input{
+    max-width: 200px;
 }
-img{
-
+.ingrese{
+    max-width: 120rem;
+    margin: 0 auto;
 }
- a{
-    color: white;
-    text-decoration: none;
+body{
+    background-image: url(../Pagina1/img/o.jpg);
+}
+h1{
+    margin: 0 60rem 0 0 ;
 }
