@@ -1,10 +1,10 @@
 form{
-background-color: rgba(158, 156, 17, 0.479);
+background-color:transparent;
 margin: 5rem 8rem 6rem 9rem;
 max-width: 300px;
 border-radius: 2rem;
 }
-s
+
 fieldset{
    
     
@@ -12,15 +12,41 @@ fieldset{
     flex-wrap: wrap;
 }
 input{
-    max-width: 200px;
+    max-width: 100%;
+    
+    display: block;
+    border-radius: 2rem;
+    margin:none;
+    
 }
-.ingrese{
-    max-width: 120rem;
-    margin: 0 auto;
+.boton{
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+   
 }
 body{
     background-image: url(../Pagina1/img/o.jpg);
+    max-width: 100%;
 }
-h1{
-    margin: 0 60rem 0 0 ;
+label{
+    color: oldlace;
+    font-size: 2rem;
+}
+
+legend{
+    color: thistle;
+}
+.contenido{
+    text-align: center;
+   
+}
+@media(min-width:500px){
+    form{
+        background-color:rebeccapurple;
+    }
+  .boton{
+      background-color: white;
+      color: rebeccapurple;
+  }
 }
